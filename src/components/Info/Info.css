@@ -1,0 +1,28 @@
+.info {
+  margin-bottom: 260px;
+}
+
+.info__inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #1E212C;
+}
+
+.info__item {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.info__count {
+  font-size: 46px;
+  font-weight: 900;
+  line-height: 130%;
+}
+
+.info__text {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 160%;
+}

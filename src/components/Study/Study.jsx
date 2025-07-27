@@ -21,7 +21,7 @@ export const Study = () => {
               <a href="#" className="study__navigation-explore">Explore courses</a>
             </div>
           </div>
-          <img src={studyIlustration} alt="Study illustration" />
+          <img src={studyIlustration} className='study__right-image' alt="Study illustration" />
         </div>
       </div>
     </section>

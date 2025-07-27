@@ -1,3 +1,7 @@
+.study {
+  margin-bottom: 156px;
+}
+
 .study__inner {
   display: flex;
   justify-content: space-between;
@@ -49,4 +53,9 @@
   border-radius: 4px;
   padding: 15px 40px;
   background: linear-gradient(56deg, #FF3F3A 0%, #F75E05 100%);
+}
+
+
+.study__right-image {
+  margin-bottom: 33px;
 }
