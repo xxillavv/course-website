@@ -1,0 +1,48 @@
+.header {
+  margin-top: 20px;
+  margin-bottom: 128px;
+}
+
+.header__inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header__left {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+
+.header__navigation {
+  display: flex;
+  gap: 40px;
+}
+
+.header__right-navigation {
+  display: flex;
+  gap: 38px;
+  align-items: center;
+}
+
+.header__right-consultation {
+  color: #fff;
+  padding: 15px 40px;
+  background-color: #F75E05;
+  border-radius: 4px;
+}
+
+.header__right-login {
+  position: relative;
+  margin-left: 28px
+}
+
+.header__right-login::before {
+  content: '';
+  position: absolute;
+  background-image: url('../../assets/Header/login-before.svg');
+  width: 19px;
+  height: 18px;
+  left: -25px;
+}
