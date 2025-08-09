@@ -1,0 +1,231 @@
+.contacts-info {
+  color: #1E212C;
+  margin-bottom: 180px;
+}
+
+.contacts-info__inner {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+}
+
+.contacts-info__left-subtitle {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 150%;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  margin-bottom: 8px;
+}
+
+.contacts-info__left-title {
+  font-size: 46px;
+  font-weight: 900;
+  line-height: 120%;
+  margin-bottom: 25px;
+}
+
+.contacts-info__left-talkus,
+.contacts-info__left-callus,
+.contacts-info__left-address {
+  position: relative;
+  color: #787A80;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 150%;
+}
+
+.contacts-info__left-talkus::before {
+  content: '';
+  position: absolute;
+  background-image: url(/src/assets/icons/contacts-chat-icon.svg);
+  top: 0;
+  left: 0;
+  width: 24px;
+  height: 24px;
+}
+
+.contacts-info__left-callus::before {
+  content: '';
+  position: absolute;
+  background-image: url(/src/assets/icons/contacts-phone-icon.svg);
+  top: 0;
+  left: -2px;
+  width: 24px;
+  height: 24px;
+}
+
+.contacts-info__left-address::before {
+  content: '';
+  position: absolute;
+  background-image: url(/src/assets/icons/contacts-pin-icon.svg);
+  top: 0;
+  left: 2px;
+  width: 18.3px;
+  height: 21.5px;
+}
+
+.contacts-info__left-email,
+.contacts-info__left-phone,
+.contacts-info__left-address-text {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 150%;
+  margin-bottom: 20px;
+}
+
+.contacts-info__left-talkus,
+.contacts-info__left-callus,
+.contacts-info__left-address,
+.contacts-info__left-email,
+.contacts-info__left-phone,
+.contacts-info__left-address-text {
+  padding-left: 36px;
+}
+
+.contacts-info__left-address-text {
+  margin-bottom: 48px;
+}
+
+.contacts-info__left-follow {
+  margin-bottom: 24px;
+}
+
+.footer__left-list-item.contacts-info__left-list-item {
+  opacity: 0.5;
+}
+
+.contacts-info__left-list {
+  display: flex;
+  gap: 32px;
+}
+
+.contacts-info__left-list-item:hover {
+  scale: 1.1;
+}
+
+.contacts-form {
+  margin-bottom: 180px;
+}
+
+.contacts-info__image {
+  position: absolute;
+  top: 0;
+  right: -60px;
+}
+
+.contacts-form__image {
+  padding-top: 43px;
+}
+
+.contacts-form__inner {
+  display: flex;
+  gap: 105px;
+}
+
+.contacts-form__right-subtitle {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 150%;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  margin-bottom: 8px;
+}
+
+.contacts-form__right-title {
+  font-size: 46px;
+  font-weight: 900;
+  line-height: 130%;
+  margin-bottom: 40px;
+}
+
+.contacts-form__right-form-information,
+.contacts-form__right-form-contacts {
+  display: flex;
+  gap: 25px;
+  margin-bottom: 24px;
+}
+
+.contacts-form__right-form-name,
+.contacts-form__right-form-lastname,
+.contacts-form__right-form-email,
+.contacts-form__right-form-phone {
+  position: relative;
+  width: 340px;
+  padding: 18px 16px 18px 16px;
+  border-radius: 4px;
+  border: 1px solid var(--gray-400, #D7DADD);
+  background: var(--white, #FFF);
+}
+
+.contacts-form__right-form-message {
+  position: relative;
+  width: 705px;
+  height: 128px;
+  padding: 13px 16px 89px 16px;
+  border: 1px solid var(--gray-400, #D7DADD);
+  background: var(--white, #FFF);
+  margin-bottom: 48px;
+}
+
+.contacts-form__right-form-name::placeholder,
+.contacts-form__right-form-lastname::placeholder,
+.contacts-form__right-form-email::placeholder,
+.contacts-form__right-form-phone::placeholder,
+.contacts-form__right-form-message::placeholder {
+  color: #9A9CA5;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 160%;
+}
+
+.contacts-form__right-form-checkbox {
+  position: relative;
+  accent-color: #FF3F3A;
+}
+
+.contacts-form__right-form-checkbox::after {
+  content: 'I agree to receive communications from Createx Online School';
+  position: absolute;
+  top: -5px;
+  left: 25px;
+  color: #424551;
+  width: 287px;
+  height: 52px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 160%;
+}
+
+.contacts-form__right-form-submit {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.contacts-form__right-form-button {
+  color: #FFF;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 52px;
+  letter-spacing: 0.5px;
+  border-radius: 4px;
+  background: var(--btn-gradient, linear-gradient(56deg, #FF3F3A 0%, #F75E05 100%));
+  padding: 0 40px;
+  border: none;
+  max-width: 300px;
+  width: 100%;
+}
+
+.contacts-form__right-form-name-label,
+.contacts-form__right-form-lastname-label,
+.contacts-form__right-form-email-label,
+.contacts-form__right-form-message-label,
+.contacts-form__right-form-phone-label {
+  display: block;
+  color: var(--gray-800, #424551);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 160%;
+  margin-bottom: 8px;
+}

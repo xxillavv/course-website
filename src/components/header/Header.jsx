@@ -1,15 +1,18 @@
 import headerLogo from './../../assets/Header/logo.svg'
 import './Header.css'
+import { Link } from 'react-router-dom'
+
+
 
 export const Header = () => {
   return (
-    <header className="header">
+    <header id='header' className="header">
       <div className="container">
         <div className="header__inner">
           <div className="header__left">
-            <a href="#" className="header__logo-link">
+            <Link to="/" className="header__logo-link">
               <img src={headerLogo} alt="Header logo" className="header__logo-image" />
-            </a>
+            </Link>
             <ul className="header__navigation">
               <li className="header__navigation-item">
                 <a href="#" className="header__navigation-link">About Us</a>
@@ -24,11 +27,10 @@ export const Header = () => {
                 <a href="#" className="header__navigation-link">Blog</a>
               </li>
               <li className="header__navigation-item">
-                <a href="#" className="header__navigation-link">Contacts</a>
+                <Link to="/contacts" className="header__navigation-link">Contacts</Link>
               </li>
             </ul>
           </div>
-
           <div className="header__right">
             <div className="header__right-navigation">
               <a href="#" className="header__right-consultation">Get consultation</a>

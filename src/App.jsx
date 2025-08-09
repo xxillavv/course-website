@@ -1,24 +1,15 @@
-import { Benefit } from "./components/Benefit/Benefit"
-import { Courses } from "./components/Courses/Courses"
-import { Header } from "./components/header/Header"
-import { Info } from "./components/Info/Info"
-import { Study } from "./components/Study/Study"
-import { Why } from "./components/Why/Why"
-import { Events } from "./components/Events/Events"
+import Main from "./Pages/Main/Main";
+import { ContactsPage } from "../src/Pages/Contacts/Contacts";
+import { Route, Routes } from "react-router-dom";
 
 
 export default function App() {
   return (
     <>
-      <div className="header__study-wrapper">
-        <Header />
-        <Study />
-      </div>
-      <Info />
-      <Why />
-      <Courses />
-      <Benefit />
-      <Events />
+      <Routes>
+        <Route path="/" element={<Main />} />
+        <Route path="/contacts" element={<ContactsPage />} />
+      </Routes>
     </>
   )
 }

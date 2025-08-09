@@ -95,3 +95,62 @@ export const eventBoxItem = [
   about: 'Online workshop',
 },
 ]
+
+export const teamMembers = [
+  {
+    imageSrc: 'src/assets/main-images/team-1.png',
+    name: 'Dianne Russell',
+    role: 'Founder and CEO',
+  },
+  {
+    imageSrc: 'src/assets/main-images/team-2.png',
+    name: 'Jerome Bell',
+    role: 'Founder and Program Director',    
+  },
+  {
+    imageSrc: 'src/assets/main-images/team-3.png',
+    name: 'Kristin Watson',
+    role: 'Marketer, Curator of Marketing Course',    
+  },
+  {
+    imageSrc: 'src/assets/main-images/team-4.png',
+    name: 'Marvin McKinney',
+    role: 'PM, Curator of Management Course',    
+  }
+]
+
+export const teamSlierButtons = [0, 1, 2, 3, 4]
+
+export const postsData = [
+  {
+    imgSrc: 'src/assets/main-images/posts-1.png',
+    aboutTheme: 'Marketing',
+    aboutDate: 'September 4, 2020',
+    aboutTime: '36 min',
+    theme: 'What is traffic arbitrage and does it really make money?',
+    text: 'Pharetra, ullamcorper iaculis viverra parturient sed id sed. Convallis proin dignissim lacus, purus gravida...',
+    link: 'Listen',
+    separate: '|',
+    showSeparate: true,
+  },
+  {
+    imgSrc: 'src/assets/main-images/posts-2.png',
+    aboutTheme: 'Management',
+    aboutDate: 'August 25, 2020 ',
+    aboutTime: '45 min',
+    theme: 'What to do and who to talk to if you want to get feedback on the product',
+    text: 'Neque a, senectus consectetur odio in aliquet nec eu. Ultricies ac nibh urna urna sagittis faucibus...',
+    link: 'Watch',
+    separate: '|',
+    showSeparate: true,
+  },
+  {
+    imgSrc: 'src/assets/main-images/posts-3.png',
+    aboutTheme: 'Design',
+    aboutDate: 'August 8, 2020',
+    theme: 'Should you choose a creative profession if you are attracted to creativity?',
+    text: 'Curabitur nisl tincidunt eros venenatis vestibulum ac placerat. Tortor, viverra sed vulputate ultrices...',
+    link: 'Read',
+    separate: '|',
+  }
+]
