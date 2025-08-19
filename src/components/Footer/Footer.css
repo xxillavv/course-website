@@ -190,7 +190,11 @@
 
 .footer__bottom-link {
   font-size: 14px;
-  opacity: 0.6;
+  opacity: 0.9;
   font-weight: 700;
   line-height: 150%;
+  background-color: transparent;
+  border: none;
+  color: #fff;
+  cursor: pointer;
 }

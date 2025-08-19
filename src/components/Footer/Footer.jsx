@@ -7,9 +7,16 @@ import instagramLogo from '../../assets/logos/instagram-logo.svg'
 import youtubeLogo from '../../assets/logos/youtube-logo.svg'
 import facebookLogo from '../../assets/logos/facebook-logo.svg'
 import twitterLogo from '../../assets/logos/twitter-logo.svg'
-
+import { useContext } from 'react'
+import { SectionContext } from '../../Pages/Main/Main'
 
 export const Footer = () => {
+  const sectionRef = useContext(SectionContext)
+
+  const moveToHeader = () => {
+    sectionRef.current.scrollIntoView()
+  }
+
   return (
     <footer className="footer">
       <div className="container">
@@ -114,7 +121,7 @@ export const Footer = () => {
               <p className="footer__bottom-left-text">© All rights reserved. Made with</p>
               <p className="footer__bottom-left-bytext">by Createx Studio </p>
             </div>
-            <a href="#header" className="footer__bottom-link">GO TO TOP</a>
+            <button onClick={moveToHeader} className="footer__bottom-link">GO TO TOP</button>
           </div>
         </div>
       </div>
