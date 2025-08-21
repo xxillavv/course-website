@@ -1,8 +1,13 @@
 import headerLogo from './../../assets/Header/logo.svg'
 import './Header.css'
 import { Link } from 'react-router-dom'
+import { useContext } from 'react'
+import { SectionContext } from '../../App'
 
-export const Header = ({sectionRef}) => {
+
+export const Header = () => {
+  const sectionRef = useContext(SectionContext)
+
   return (
     <>
       <header ref={sectionRef} id='header' className="header">
@@ -17,7 +22,7 @@ export const Header = ({sectionRef}) => {
                   <a href="#" className="header__navigation-link">About Us</a>
                 </li>
                 <li className="header__navigation-item">
-                  <a href="#" className="header__navigation-link">Courses</a>
+                  <Link to="/courses" href="#" className="header__navigation-link">Courses</Link>
                 </li>
                 <li className="header__navigation-item">
                   <a href="#" className="header__navigation-link">Events</a>

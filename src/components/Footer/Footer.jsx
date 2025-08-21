@@ -8,7 +8,7 @@ import youtubeLogo from '../../assets/logos/youtube-logo.svg'
 import facebookLogo from '../../assets/logos/facebook-logo.svg'
 import twitterLogo from '../../assets/logos/twitter-logo.svg'
 import { useContext } from 'react'
-import { SectionContext } from '../../Pages/Main/Main'
+import { SectionContext } from '../../App'
 
 export const Footer = () => {
   const sectionRef = useContext(SectionContext)

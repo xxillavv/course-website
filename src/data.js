@@ -98,22 +98,22 @@ export const eventBoxItem = [
 
 export const teamMembers = [
   {
-    imageSrc: 'src/assets/main-images/team-1.png',
+    imageSrc: 'src/assets/main-images/course-member-2.png',
     name: 'Dianne Russell',
     role: 'Founder and CEO',
   },
   {
-    imageSrc: 'src/assets/main-images/team-2.png',
+    imageSrc: 'src/assets/main-images/course-member-3.png',
     name: 'Jerome Bell',
     role: 'Founder and Program Director',    
   },
   {
-    imageSrc: 'src/assets/main-images/team-3.png',
+    imageSrc: 'src/assets/main-images/course-member-1.png',
     name: 'Kristin Watson',
     role: 'Marketer, Curator of Marketing Course',    
   },
   {
-    imageSrc: 'src/assets/main-images/team-4.png',
+    imageSrc: 'src/assets/main-images/course-member-4.png',
     name: 'Marvin McKinney',
     role: 'PM, Curator of Management Course',    
   }
@@ -154,3 +154,78 @@ export const postsData = [
     separate: '|',
   }
 ]
+
+export const coursePageMembersData = [
+  {
+    src: 'src/assets/main-images/course-page-member-1.png',
+    theme: 'Marketing',
+    title: 'The Ultimate Google Ads Training Course',
+    price: '$100',
+    after: ' | by Jerome Bell',
+    color: '#03CEA4',
+  },
+  {
+    src: 'src/assets/main-images/course-page-member-2.png',
+    theme: 'Management',
+    title: 'Product Management Fundamentals',
+    price: '$480',
+    after: ' | by Marvin McKinney',
+    color: '#5A87FC',
+  },
+  {
+    src: 'src/assets/main-images/course-page-member-3.png',
+    theme: 'HR & Recruiting',
+    title: 'HR Management and Analytics',
+    price: '$200',
+    after: ' | by Leslie Alexander Li',
+    color: '#F89828',
+  },
+  {
+    src: 'src/assets/main-images/course-page-member-4.png',
+    theme: 'Marketing',
+    title: 'Brand Management & PR Communications',
+    price: '$530',
+    after: ' | by Kristin Watson',
+    color: '#03CEA4',
+  },
+  {
+    src: 'src/assets/main-images/course-page-member-5.png',
+    theme: 'Management',
+    title: 'Business Development Management',
+    price: '$400',
+    after: ' | by Dianne Russell',
+    color: '#5A87FC',
+  },
+  {
+    src: 'src/assets/main-images/course-page-member-6.png',
+    theme: 'Design',
+    title: 'Graphic Design Basic',
+    price: '$500',
+    after: ' | by Guy Hawkins',
+    color: '#F52F6E',
+  },
+  {
+    src: 'src/assets/main-images/course-page-member-7.png',
+    theme: 'Development',
+    title: 'Highload Software Architecture',
+    price: '$600',
+    after: ' | by Brooklyn Simmons',
+    color: '#7772F1',
+  },
+  {
+    src: 'src/assets/main-images/course-page-member-8.png',
+    theme: 'HR & Recruting',
+    title: 'Human Resources – Selection and Recruitment',
+    price: '$150',
+    after: ' | by Kathryn Murphy',
+    color: '#F89828',
+  },
+  {
+    src: 'src/assets/main-images/course-page-member-9.png',
+    theme: 'Design',
+    title: 'User Experience. Human-centered Design',
+    price: '$240',
+    after: ' | by Cody Fisher',
+    color: '#F52F6E',
+  },
+];

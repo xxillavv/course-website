@@ -1,15 +1,23 @@
 import Main from "./Pages/Main/Main";
 import { ContactsPage } from "../src/Pages/Contacts/Contacts";
 import { Route, Routes } from "react-router-dom";
+import { CoursePage } from "./Pages/CoursePage/CoursePage";
+import { createContext, useRef } from "react";
 
+export const SectionContext = createContext()
 
 export default function App() {
+  const sectionRef = useRef()
+
   return (
     <>
-      <Routes>
-        <Route path="/" element={<Main />} />
-        <Route path="/contacts" element={<ContactsPage />} />
-      </Routes>
+      <SectionContext.Provider value={sectionRef}>
+        <Routes>
+          <Route path="/" element={<Main />} />
+          <Route path="/contacts" element={<ContactsPage />} />
+          <Route path="/courses" element={<CoursePage />} />
+        </Routes>
+      </SectionContext.Provider >
     </>
   )
 }
