@@ -229,3 +229,94 @@ export const coursePageMembersData = [
     color: '#F52F6E',
   },
 ];
+
+export const ourDirectData = [
+  {
+    imgSrc: 'src/assets/main-images/our-direct-1.png',
+    name: 'Marketing',
+    text: 'Odio posuere netus quisque faucibus lectus arcu donec. Eget dictum eu viverra faucibus. Viverra scelerisque consequat.',
+    color: '#03CEA4 ',
+  },
+  {
+    imgSrc: 'src/assets/main-images/our-direct-2.png',
+    name: 'Management',
+    text: 'Odio posuere netus quisque faucibus lectus arcu donec. Eget dictum eu viverra faucibus. Viverra scelerisque consequat.',
+    color: '#5A87FC',
+  },
+  {
+    imgSrc: 'src/assets/main-images/our-direct-3.png',
+    name: 'HR & Recruting',
+    text: 'Odio posuere netus quisque faucibus lectus arcu donec. Eget dictum eu viverra faucibus. Viverra scelerisque consequat.',
+    color: '#F89828',
+  },
+  {
+    imgSrc: 'src/assets/main-images/our-direct-4.png',
+    name: 'Design',
+    text: 'Odio posuere netus quisque faucibus lectus arcu donec. Eget dictum eu viverra faucibus. Viverra scelerisque consequat.',
+    color: '#F52F6E',
+  },
+  {
+    imgSrc: 'src/assets/main-images/our-direct-5.png',
+    name: 'Development',
+    text: 'Odio posuere netus quisque faucibus lectus arcu donec. Eget dictum eu viverra faucibus. Viverra scelerisque consequat.',
+    color: '#7772F1',
+  },
+]
+
+export const ourTeamData = [
+  {
+    imageSrc: 'src/assets/main-images/our-team-1.png',
+    name: 'Dianne Russell',
+    role: 'Founder and CEO',
+  },
+  {
+    imageSrc: 'src/assets/main-images/our-team-2.png',
+    name: 'Jerome Bell',
+    role: 'Founder and Program Director',
+  },
+  {
+    imageSrc: 'src/assets/main-images/our-team-3.png',
+    name: 'Kristin Watson',
+    role: 'Marketer, Curator of Marketing Course',
+  },
+  {
+    imageSrc: 'src/assets/main-images/our-team-4.png',
+    name: 'Marvin McKinney',
+    role: 'PM, Curator of Management Course',
+  },
+  {
+    imageSrc: 'src/assets/main-images/our-team-5.png',
+    name: 'Leslie Alexander Li',
+    role: 'Curator of HR & Recruting Course',
+  },
+  {
+    imageSrc: 'src/assets/main-images/our-team-6.png',
+    name: 'Kathryn Murphy',
+    role: 'Analyst and Marketing specialist',
+  },
+  {
+    imageSrc: 'src/assets/main-images/our-team-7.png',
+    name: 'Brooklyn Simmons',
+    role: 'Curator of Development Course  ',
+  },
+  {
+    imageSrc: 'src/assets/main-images/our-team-8.png',
+    name: 'Cody Fisher',
+    role: 'UX Designer, Curator of Design Course',
+  },
+]
+
+export const reviewIcons = [
+  'src/assets/icons/review-icon-1.png',
+  'src/assets/icons/review-icon-2.png',
+  'src/assets/icons/review-icon-3.png',
+  'src/assets/icons/review-icon-4.png',
+  'src/assets/icons/review-icon-5.png',
+  'src/assets/icons/review-icon-6.png',
+  'src/assets/icons/review-icon-7.png',
+  'src/assets/icons/review-icon-8.png',
+  'src/assets/icons/review-icon-9.png',
+  'src/assets/icons/review-icon-10.png',
+  'src/assets/icons/review-icon-11.png',
+  'src/assets/icons/review-icon-12.png',
+]

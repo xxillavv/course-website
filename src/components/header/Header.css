@@ -46,3 +46,18 @@
   height: 18px;
   left: -25px;
 }
+
+.header__navigation-link.header-active {
+  color: #FF3F3A;
+}
+
+.header__navigation-item {
+  color: #424551;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 160%;
+}
+
+.header__navigation-item:hover {
+  scale: 1.05;
+}

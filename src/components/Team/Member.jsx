@@ -5,7 +5,7 @@ import linkedinIcon from '../../assets/icons/linkedin-icon.svg'
 
 export const Member = ({ teamMembers }) => {
   return (
-    <div className="team__members-item">
+    <div className="team__members-item our-team__box-item">
       <div className="team__members-item-wrapper">
         <a href="#" className="team__members-item-link">
           <img src={facebookIcon} alt="Facebook" />
