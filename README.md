@@ -1,82 +1,86 @@
-# 🎓 CoursesHub
+# 🎓 CourseX
 
-**CoursesHub** is a modern web application built with **React + TypeScript** that lets users browse, filter, and track online courses. Perfect for students or anyone looking to organize their learning journey.
+![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
+![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white)
+![Vite](https://img.shields.io/badge/vite-%23646CFF.svg?style=for-the-badge&logo=vite&logoColor=white)
+
+**CoursesX** is a modern web application built with **React + TypeScript** that allows users to browse, filter, and track online courses. It is the perfect tool for students or anyone looking to organize their learning journey.
 
 ---
 
 ## ⚡ Features
 
-- Browse a list of courses with details (title, author, description, rating)
-- Filter courses by category and difficulty level
-- Search courses by title or keywords
-- View detailed course pages with full descriptions and curriculum
-- Add courses to “Favorites” for easy access
-- Responsive design for both mobile and desktop
+✅ **Course Catalog:** Browse a comprehensive list of courses with details (title, author, description, rating).
+✅ **Search & Filter:** Easily find courses by keywords, or filter them by category and difficulty level.
+✅ **Course Details:** Dedicated pages for every course featuring full descriptions and curriculum.
+✅ **Favorites:** Add courses to your "Favorites" list for quick access (persisted via LocalStorage).
+✅ **Responsive Design:** Fully optimized interface for both mobile devices and desktops.
 
 ---
 
-## 🛠 Technologies
+## 🛠 Tech Stack
 
-- **React** + **TypeScript**
-- **React Router** for navigation
-- **useContext / useState / useReducer** for state management
-- **CSS Modules / Tailwind** for styling
-- **localStorage** for saving favorite courses
-- Optional: **Axios** for API requests
+This project is built using modern web technologies:
+
+- **Core:** React, TypeScript
+- **Routing:** React Router DOM
+- **State Management:** useContext, useState, useReducer
+- **Styling:** CSS Modules / Tailwind CSS
+- **Data Persistence:** LocalStorage API
+- **HTTP Client:** Axios (Optional/Ready for API integration)
 
 ---
 
-## 💻 Installation & Run
+## 💻 Getting Started
 
-1. Clone the repository:
+Follow these steps to set up the project locally:
 
-```bash
-git clone https://github.com/yourusername/courseshub.git
+**1. Clone the repository:**
 
-2. Install dependencies:
+```
+git clone [https://github.com/xxillavv/courseshub.git](https://github.com/xxillavv/courseshub.git)
+cd courseshub
+```
+
+**2. Install dependencies:**
+
+```
 npm install
+```
 
-3. Start the development server:
+**3. Start the development server:**
+
+```
 npm run dev
+```
 
----
+Open your browser and navigate to http://localhost:5173 (or the port shown in your terminal).
 
-📝 Project Structure
+**📂 Project Structure:**
 
 src/
- ├─ assets         # Media content (Photos, Videos, Icons)
- ├─ components/    # Reusable components (Card, Header, Footer, CourseList…)
- ├─ pages/         # Pages (Home, CourseDetail, Favorites…)
- ├─ types/         # TypeScript types
- ├─ App.tsx
- ├─ data.ts        # Static course data
- ├─ global.d.ts
- ├─ index.css      # Basic style rules
- └─ main.tsx
+├── 📂 assets/ # Media assets (Images, Icons)
+├── 📂 components/ # Reusable UI components (Card, Header, Footer...)
+├── 📂 pages/ # Application pages (Home, CourseDetail, Favorites...)
+├── 📂 types/ # TypeScript interfaces and types
+├── 📜 App.tsx # Main application component
+├── 📜 data.ts # Static mock data for courses
+├── 📜 main.tsx # Entry point
+└── 📜 index.css # Global styles
 
----
+**🚀 Roadmap & Future Improvements**
+[ ] Connect to a real backend API for live course data
 
-🚀 Future Improvements
+[ ] Implement user authentication and profiles
 
-- Connect to a real courses API
+[ ] Add course ratings and user review system
 
-- Add course ratings and user reviews
+[ ] Add Dark/Light theme toggle
 
-- User authentication & personalized courses
+[ ] Write Unit tests for core components
 
-- Dark/light theme toggle
-
-- Unit tests for components
-
-
-
-
-
-✨ Author
-
+**✨ Author**
 Vladyslav Paniv
 
 GitHub: [xxillavv](https://github.com/xxillavv)
-
 LinkedIn: [Vladyslav Paniv](https://www.linkedin.com/in/vladyslav-paniv-041674391/)
-```
