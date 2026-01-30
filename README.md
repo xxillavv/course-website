@@ -1,12 +1,82 @@
-# React + Vite
+# 🎓 CoursesHub
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**CoursesHub** is a modern web application built with **React + TypeScript** that lets users browse, filter, and track online courses. Perfect for students or anyone looking to organize their learning journey.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## ⚡ Features
 
-## Expanding the ESLint configuration
+- Browse a list of courses with details (title, author, description, rating)
+- Filter courses by category and difficulty level
+- Search courses by title or keywords
+- View detailed course pages with full descriptions and curriculum
+- Add courses to “Favorites” for easy access
+- Responsive design for both mobile and desktop
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🛠 Technologies
+
+- **React** + **TypeScript**
+- **React Router** for navigation
+- **useContext / useState / useReducer** for state management
+- **CSS Modules / Tailwind** for styling
+- **localStorage** for saving favorite courses
+- Optional: **Axios** for API requests
+
+---
+
+## 💻 Installation & Run
+
+1. Clone the repository:
+
+```bash
+git clone https://github.com/yourusername/courseshub.git
+
+2. Install dependencies:
+npm install
+
+3. Start the development server:
+npm run dev
+
+---
+
+📝 Project Structure
+
+src/
+ ├─ assets         # Media content (Photos, Videos, Icons)
+ ├─ components/    # Reusable components (Card, Header, Footer, CourseList…)
+ ├─ pages/         # Pages (Home, CourseDetail, Favorites…)
+ ├─ types/         # TypeScript types
+ ├─ App.tsx
+ ├─ data.ts        # Static course data
+ ├─ global.d.ts
+ ├─ index.css      # Basic style rules
+ └─ main.tsx
+
+---
+
+🚀 Future Improvements
+
+- Connect to a real courses API
+
+- Add course ratings and user reviews
+
+- User authentication & personalized courses
+
+- Dark/light theme toggle
+
+- Unit tests for components
+
+
+
+
+
+✨ Author
+
+Vladyslav Paniv
+
+GitHub: [xxillavv](https://github.com/xxillavv)
+
+LinkedIn: [Vladyslav Paniv](https://www.linkedin.com/in/vladyslav-paniv-041674391/)
+```
