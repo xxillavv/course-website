@@ -11,9 +11,7 @@
 ## ⚡ Features
 
 ✅ **Course Catalog:** Browse a comprehensive list of courses with details (title, author, description, rating).
-✅ **Search & Filter:** Easily find courses by keywords, or filter them by category and difficulty level.
 ✅ **Course Details:** Dedicated pages for every course featuring full descriptions and curriculum.
-✅ **Favorites:** Add courses to your "Favorites" list for quick access (persisted via LocalStorage).
 ✅ **Responsive Design:** Fully optimized interface for both mobile devices and desktops.
 
 ---
@@ -56,19 +54,22 @@ npm run dev
 
 Open your browser and navigate to http://localhost:5173 (or the port shown in your terminal).
 
-**📂 Project Structure:**
+## 📂 Project Structure:
 
-src/
-├── 📂 assets/ # Media assets (Images, Icons)
-├── 📂 components/ # Reusable UI components (Card, Header, Footer...)
-├── 📂 pages/ # Application pages (Home, CourseDetail, Favorites...)
-├── 📂 types/ # TypeScript interfaces and types
-├── 📜 App.tsx # Main application component
-├── 📜 data.ts # Static mock data for courses
-├── 📜 main.tsx # Entry point
-└── 📜 index.css # Global styles
+```
+  src/
+  ├── 📂 assets/ # Media assets (Images, Icons)
+  ├── 📂 components/ # Reusable UI components (Card, Header, Footer...)
+  ├── 📂 pages/ # Application pages (Home, CourseDetail, Favorites...)
+  ├── 📂 types/ # TypeScript interfaces and types
+  ├── 📜 App.tsx # Main application component
+  ├── 📜 data.ts # Static mock data for courses
+  ├── 📜 main.tsx # Entry point
+  └── 📜 index.css # Global styles
+```
 
-**🚀 Roadmap & Future Improvements**
+## 🚀 Roadmap & Future Improvements
+
 [ ] Connect to a real backend API for live course data
 
 [ ] Implement user authentication and profiles
@@ -79,8 +80,9 @@ src/
 
 [ ] Write Unit tests for core components
 
-**✨ Author**
-Vladyslav Paniv
+## ✨ Author
 
-GitHub: [xxillavv](https://github.com/xxillavv)
-LinkedIn: [Vladyslav Paniv](https://www.linkedin.com/in/vladyslav-paniv-041674391/)
+# Vladyslav Paniv
+
+**GitHub: [xxillavv](https://github.com/xxillavv)**
+**LinkedIn: [Vladyslav Paniv](https://www.linkedin.com/in/vladyslav-paniv-041674391/)**
